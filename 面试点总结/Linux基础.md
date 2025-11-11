@@ -8,3 +8,6 @@
 	- CentOS
 	- Fedora
 - ...
+
+# Linux系统的管理组成
+## Linux内核
