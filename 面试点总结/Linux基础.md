@@ -4,7 +4,7 @@
 	- Ubuntu
 	- Kali
 - **Red Hat系**
-	- RHEL	
+	- RHEL
 	- CentOS
 	- Fedora
 - ...
@@ -40,3 +40,12 @@
 
 # cmake
 `cmake`是一个跨平台的开源构建系统生成器, 用于管理和自动化软件项目的编译过程. 它本身不直接编译代码, 而是根据`CMkaeLists.txt`生成适用于不同平台和编译器的构建文件, 然后由对应的底层构建工具来实现执行编译
+
+# WSL
+- Windows Subsystem for Linux
+- Windows系统的Linux子系统
+
+# 编译过程中链接的优化
+- 减少全局符号
+	- 尽量使用`static`将函数和变量限制在文件作用域内
+- 
